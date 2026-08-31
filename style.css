@@ -1,27 +1,146 @@
-body{
-    background-color: #C5E3E8;
+@font-face {
+    font-family: "arboria", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://use.typekit.net/vhs6rqi.css);
+
+    font-family: "arboria", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+    font-family: "arboria", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: "arboria", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+    font-family: "arboria", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+    font-family: "arboria", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
 }
+
+body {
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "arboria", sans-serif;
+    letter-spacing: .5px;
+    line-height: 5rem;
+    font-size: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #dcdce7;
+    font-size: 1.4rem;
+    margin: 10%;
+
+}
+
+a:hover {
+    color: #55556f;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+html {
+    font-size: 12px;
+
+
+}
+
 p {
     color: #55556f;
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 2% 10%;
 }
+
 h1 {
-    color: #55556f;
+    color: #8a8aab;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 2% 6%;
+
 }
+
 h2 {
     color: #8a8aab;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 2% 6%;
+
 }
+
 h3 {
-    color: #8a8aab;
+    line-height: 1dvh;
 }
-.class1{
-    color:blue;
+
+
+.my-container {
+    width: 600px;
+
 }
-.my-paragraph{
-    color: red;
+
+button {
+    margin: 10%;
+    padding: 2%;
+
 }
-#biggest{
-    font-size: 50px;
+
+.inline {
+    display: inline;
 }
-p:hover{
-    color:red;
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    width: 1000px;
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.navbar {
+    display: flex;
+    align-items: right;
+    padding: 10px 20px;
+    background-color: #8a8aab;
+    width: 100%
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.img-wide {
+    width: 100%;
+
+}
+
+.img-margin {
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
 }
